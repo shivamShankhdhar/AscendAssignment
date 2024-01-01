@@ -1,0 +1,31 @@
+.App {
+  display: flex;
+}
+
+.ListContainer {
+  display: flex;
+  overflow-x: auto;
+}
+
+.List {
+  width: 200px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.List--droppable {
+  border-color: green;
+}
+
+.Task {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+}
+
+.Task--completed {
+  text-decoration: line-through;
+}
